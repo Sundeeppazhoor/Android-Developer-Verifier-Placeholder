@@ -45,3 +45,15 @@ The APK will be generated at:
 build/app/outputs/flutter-apk/app-release.apk
 ```
 
+The latest APK is also stored in the repository folder:
+
+```text
+apk/app-release.apk
+```
+
+You can download it directly from GitHub at:
+
+```text
+https://github.com/Sundeeppazhoor/Android-Developer-Verifier-Placeholder/raw/main/apk/app-release.apk
+```
+
