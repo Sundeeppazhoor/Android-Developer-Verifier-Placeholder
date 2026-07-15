@@ -30,6 +30,15 @@ jobs:
           channel: 'stable'
           cache: true
 
+      - name: Create signing files from secrets
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEY_PROPERTIES: ${{ secrets.KEY_PROPERTIES }}
+        run: |
+          mkdir -p android/app
+          echo "$KEYSTORE_BASE64" | base64 --decode > android/app/upload-keystore.jks
+          echo "$KEY_PROPERTIES" > android/key.properties
+
       - name: Install dependencies
         run: |
           flutter pub get
