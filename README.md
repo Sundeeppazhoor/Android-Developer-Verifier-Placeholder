@@ -54,6 +54,6 @@ apk/app-release.apk
 You can download it directly from GitHub at:
 
 ```text
-https://github.com/Sundeeppazhoor/Android-Developer-Verifier-Placeholder/raw/main/apk/
+https://www.upload-apk.com/en/IyrzjQj3pTMFwBb
 ```
 
